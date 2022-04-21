@@ -14,10 +14,10 @@ app.set('views', path.join(__dirname, 'views'));
 
 app.use(morgan('dev'));
 app.use(myConnection(mysql,{
-  host: "sql5.freemysqlhosting.net",
-  user: "sql5471641",
-  password: "qncHUIPC4E",
-  database : "sql5471641",
+  host: "db5007094691.hosting-data.io",
+  user: "dbu2427698 ",
+  password: "iestdev0!",
+  database : "dbs5848722",
   port: '3306',
     
   }, 'single' ));
@@ -28,4 +28,4 @@ app.listen(app.get('port'), ()=>{
 
 app.use('/', CostumerRoutes);
 
-const CostumerRoutes =   require('../');
+const CostumerRoutes =   require('../'):
